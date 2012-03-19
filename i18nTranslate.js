@@ -3,8 +3,7 @@
     var gTranslations;
 
     var getLocale = function () {
-	return 'es';
-        //return window.navigator.language.substr(0, 2);
+        return window.navigator.language.substr(0, 2);
     };
 
     var getTranslation =  function (key) {
