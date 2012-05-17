@@ -3,7 +3,7 @@
     var gTranslations;
 
     var getLocale = function () {
-        return "es";
+        return return window.navigator.language.substr(0, 2);
     };
     var getTranslation = function (key) {
         if (gTranslations[key]) {
